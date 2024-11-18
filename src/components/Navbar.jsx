@@ -11,7 +11,7 @@ const Navbar = () => {
                 </a>
                 <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 
-                    <div className='flex gap-3'>
+                    <div className='flex gap-5'>
 
                         <SlHandbag  className='text-3xl  mt-2 font-extrabold text-[#287279]' />
                         <button className='bg-[#287279] pr-5 pl-5 pt-3 pb-3 text-white font-semibold rounded-full '> Login </button>

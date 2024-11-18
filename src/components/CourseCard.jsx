@@ -23,22 +23,22 @@ const CourseCard = ({ course, index }) => {
         </div>
     )}
             <div className="p-4">
-                {/* Tags */}
+               
                 <div className="flex space-x-2 mb-2">
                     {course.tags.map((tag, index) => (
 
 
                         <span
                             key={index}
-                            className={`${index === 1 ? "bg-[#F5FAD6]  border border-[#CDE533] text-xs font-medium px-2 py-1 rounded" : "bg-[#FFF5E6]  border border-[#FFC673] text-xs font-medium px-2 py-1 rounded"}`}
+                            className={`${index === 1 ? "bg-[#F5FAD6]  border border-[#CDE533] text-xs lg:text-xs md:text-[9px] font-medium px-2 py-1 rounded" : "bg-[#FFF5E6]  border border-[#FFC673] text-xs font-medium px-2 py-1 rounded"}`}
                         >
                             {tag}
                         </span>
                     ))}
                 </div>
-                {/* Title */}
-                <h3 className="font-semibold text-lg mb-2 mt-3">{course.title}</h3>
-                {/* Ratings */}
+               
+                <h3 className="font-semibold text-lg lg:text-lg md:text-sm mb-2 mt-3">{course.title}</h3>
+                
                 <div className="flex items-center  text-base mb-5 mt-5">
 
                     <ReactStars
@@ -54,15 +54,15 @@ const CourseCard = ({ course, index }) => {
                     />
                     <span className="font-bold text-sm mt-1 ml-2"> 4.9 ({course.reviews})</span>
                 </div>
-                {/* Details */}
+              
                 <div className="flex items-center gap-4">
-                    <span className="flex gap-1 text-black font-semibold">
-                        <PiClockFill className="text-xl mt-1 text-[#9998E1]" />
+                    <span className="flex gap-1 text-base lg:text-base md:text-xs text-black font-semibold">
+                        <PiClockFill className="text-xl mt-1 lg:mt-1 md:mt-[-2px] text-[#9998E1]" />
                         {course.duration}
                     </span>
                     <div className="w-px h-4 bg-gray-300" />
-                    <span className="flex gap-1 text-black font-semibold">
-                        <PiBookOpenTextFill className="text-xl mt-1 text-[#9998E1]" />
+                    <span className="flex gap-1 text-base lg:text-base md:text-xs text-black font-semibold">
+                        <PiBookOpenTextFill className="text-xl mt-1 lg:mt-1 md:mt-[-2px] text-[#9998E1]" />
                         {course.lessons} Lessons
                     </span>
                 </div>
@@ -78,7 +78,7 @@ const CourseCard = ({ course, index }) => {
                         <span className="text-sm font-bold">{course.author}</span>
                     </div>
                     <span className="text-lg font-semibold text-gray-800">
-                        {index === 2 ? (<div  className='flex text-sm border gap-1 border-[#C2C2C2] text-gray-500 bg-[#F2F2F2] p-1 rounded-lg'>
+                        {index === 2 ? (<div  className='flex text-sm lg:text-sm md:text-xs border gap-1 border-[#C2C2C2] text-gray-500 bg-[#F2F2F2] p-1 rounded-lg'>
                             <FaCheckCircle className='mt-1 ' /> Enrolled
 
                         </div>) : (<span className='font-semibold text-2xl'> ${course.price} </span>) } 

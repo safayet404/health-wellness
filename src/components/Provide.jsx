@@ -52,7 +52,7 @@ const Provide = () => {
                         <img className="mt-5 rounded-md" src={b} />
                         <img
                             src={v}
-                            className="absolute top-[20%] lg:top-[15%] md:top-[10%] left-[-7%] md:left-[-5%] lg:left-[-6%] w-[45px] h-[45px] lg:w-[74px] md:w-[74] lg:h-[74px] md:h-[74px]"
+                            className="absolute top-[20%] lg:top-[15%] md:top-[10%] left-[-7%] md:left-[-4%] lg:left-[-6%] w-[45px] h-[45px] lg:w-[74px] md:w-[50px] lg:h-[74px] md:h-[54px]"
                         />
                     </div>
                 </div>
