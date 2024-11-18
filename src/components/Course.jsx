@@ -65,21 +65,21 @@ const courses = [
 
 const CourseList = () => {
   return (
-    <div className=' bg-white'>
+    <div className=' bg-white '>
 
-      <div className="container mx-auto px-4 py-8">
-        <h2 className="text-3xl font-bold mb-4 text-left">Our popular courses</h2>
+      <div className="container mx-auto px-4 py-8 ">
+        <h2 className="text-base lg:text-3xl md:text-2xl font-bold mb-4 text-left">Our popular courses</h2>
         <div className='flex justify-between'>
 
-          <p className="text-gray-500 text-left mb-8 w-[40%]">
+          <p className="text-gray-500 text-[8px] lg:text-base md:text-base text-left mb-8 w-[60%] lg:w-[40%] md:w-[40%]">
             By taking proactive steps to nurture mental health, we can enhance our quality of life,
             build resilience, and foster a sense of inner peace and balance.
           </p>
 
           <span className='flex gap-5'>
 
-            <IoIosArrowBack className='text-[50px] border rounded-full p-2 text-gray-400' />
-            <IoIosArrowForward className='text-[50px] border border-black rounded-full p-2 ' />
+            <IoIosArrowBack className='text-[35px] lg:text-[50px] md:text-[50px] border rounded-full p-2 text-gray-400' />
+            <IoIosArrowForward className='text-[35px] lg:text-[50px] md:text-[50px] border border-black rounded-full p-2 ' />
           </span>
 
           <div>
