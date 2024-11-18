@@ -36,11 +36,11 @@ const Banner = () => {
                         </span>
 
                         <div className='flex mt-5 gap-5'>
-                            <button className='bg-[#287279] text-white p-4 text-sm rounded-full'>
+                            <button className='bg-[#287279] text-white pr-5 pl-5 pb-2 pt-2 text-sm rounded-full'>
                                 Browse Courses
                             </button>
     
-                            <button className='border border-[#287279] rounded-full p-4 text-[#287279]'>
+                            <button className='border border-[#287279] rounded-full pr-5 pl-5 pb-2 pt-2 text-[#287279]'>
                                 Get Started
                             </button>
                         </div>
