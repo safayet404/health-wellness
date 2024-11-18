@@ -8,7 +8,7 @@ const Banner = () => {
         <div className="bg-[#F0F1EE] w-full flex justify-center items-center">
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-10 mt-[130px] lg:mt-[100px] md:mt-[100px] ">
-                    {/* Left Section */}
+                  
                     <div className="flex flex-col items-start justify-center text-left px-4 ">
                         <div className="flex flex-row items-center">
                             <ReactStars
@@ -46,7 +46,6 @@ const Banner = () => {
                         </div>
                     </div>
 
-                    {/* Right Section */}
                     <div className="flex items-center justify-center mt-[30px] lg:mt-[150px] md:mt-[130px]">
                         <div className='relative'>
                             <img alt="banner" src={b} className='w-[548px] lg:w-[648px] md:w-[440px] h-[450px] lg:h-[760px] md:h-[650] mb-5 rounded-lg' />

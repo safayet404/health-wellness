@@ -7,7 +7,7 @@ const Provide = () => {
     return (
         <div className="bg-white overflow-hidden">
             <div className="container px-5 mx-auto py-8 flex flex-wrap justify-center">
-                {/* Left Section */}
+          
                 <div className="w-full lg:w-1/2 md:w-full text-center flex justify-center">
                     <div className="flex flex-col gap-4">
                         <h1 className="text-[25px] lg:text-[45px] md:text-[40px] font-semibold mb-4 text-center lg:text-left md:text-left">We provide ...</h1>
@@ -46,7 +46,7 @@ const Provide = () => {
                     </div>
                 </div>
 
-                {/* Right Section */}
+        
                 <div className="w-full lg:w-1/2 md:w-full flex justify-center items-center">
                     <div className="relative">
                         <img className="mt-5 rounded-md" src={b} />

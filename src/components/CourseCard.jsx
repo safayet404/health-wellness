@@ -8,22 +8,22 @@ const CourseCard = ({ course, index }) => {
     const cardStyle = index === 1 ? "bg-[#F5F5Fc]" : ""
     return (
         <div className={`max-w-sm relative rounded-lg shadow-md overflow-hidden border ${cardStyle}`}>
-            <img src={course.image}  alt={course.title} className="w-full h-48 object-cover" />
+            <img src={course.image} alt={course.title} className="w-full h-48 object-cover" />
 
-          
+
             {index === 1 && (
-        <div className="absolute inset-0 flex justify-end items-start gap-2 p-2">
-            <button className="bg-white p-3 text-[25px] rounded-full shadow-md text-gray-500">
-             <IoCartOutline />
-            </button>
-            <button className="bg-white p-3 text-[25px] rounded-full shadow-md text-gray-500">
-             <IoMdHeartEmpty />
-            </button>
-          
-        </div>
-    )}
+                <div className="absolute inset-0 flex justify-end items-start gap-2 p-2">
+                    <button className="bg-white p-3 text-[25px] rounded-full shadow-md text-gray-500">
+                        <IoCartOutline />
+                    </button>
+                    <button className="bg-white p-3 text-[25px] rounded-full shadow-md text-gray-500">
+                        <IoMdHeartEmpty />
+                    </button>
+
+                </div>
+            )}
             <div className="p-4">
-               
+
                 <div className="flex space-x-2 mb-2">
                     {course.tags.map((tag, index) => (
 
@@ -36,9 +36,9 @@ const CourseCard = ({ course, index }) => {
                         </span>
                     ))}
                 </div>
-               
+
                 <h3 className="font-semibold text-lg lg:text-lg md:text-sm mb-2 mt-3">{course.title}</h3>
-                
+
                 <div className="flex items-center  text-base mb-5 mt-5">
 
                     <ReactStars
@@ -54,7 +54,7 @@ const CourseCard = ({ course, index }) => {
                     />
                     <span className="font-bold text-sm mt-1 ml-2"> 4.9 ({course.reviews})</span>
                 </div>
-              
+
                 <div className="flex items-center gap-4">
                     <span className="flex gap-1 text-base lg:text-base md:text-xs text-black font-semibold">
                         <PiClockFill className="text-xl mt-1 lg:mt-1 md:mt-[-2px] text-[#9998E1]" />
@@ -78,10 +78,10 @@ const CourseCard = ({ course, index }) => {
                         <span className="text-sm font-bold">{course.author}</span>
                     </div>
                     <span className="text-lg font-semibold text-gray-800">
-                        {index === 2 ? (<div  className='flex text-sm lg:text-sm md:text-xs border gap-1 border-[#C2C2C2] text-gray-500 bg-[#F2F2F2] p-1 rounded-lg'>
+                        {index === 2 ? (<div className='flex text-sm lg:text-sm md:text-xs border gap-1 border-[#C2C2C2] text-gray-500 bg-[#F2F2F2] p-1 rounded-lg'>
                             <FaCheckCircle className='mt-1 ' /> Enrolled
 
-                        </div>) : (<span className='font-semibold text-2xl'> ${course.price} </span>) } 
+                        </div>) : (<span className='font-semibold text-2xl'> ${course.price} </span>)}
                     </span>
                 </div>
             </div>

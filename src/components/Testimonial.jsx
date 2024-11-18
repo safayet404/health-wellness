@@ -55,51 +55,51 @@ const TestimonialSlider = () => {
 
         responsive: [
             {
-                breakpoint: 1920,  // Large screens (1920px or more)
+                breakpoint: 1920,
                 settings: {
-                    slidesToShow: 5,  // Show 6 slides on large screens
+                    slidesToShow: 5,
                 },
             },
             {
-                breakpoint: 1600,  // Large screens (1920px or more)
+                breakpoint: 1600,
                 settings: {
-                    slidesToShow: 4,  // Show 6 slides on large screens
+                    slidesToShow: 4,
                 },
             },
             {
-                breakpoint: 1280,  // For screens smaller than 1280px
+                breakpoint: 1280,  
                 settings: {
-                    slidesToShow: 3,  // Show 5 slides on medium-large screens
+                    slidesToShow: 3, 
                 },
             },
             {
-                breakpoint: 1024,  // For screens smaller than 1024px
+                breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,  // Show 3 slides on tablets
+                    slidesToShow: 3,  
                 },
             },
             {
-                breakpoint: 880,  // For screens smaller than 768px (tablets and smaller)
+                breakpoint: 880, 
                 settings: {
-                    slidesToShow: 2,  // Show 2 slides on smaller tablets
+                    slidesToShow: 2,  
                 },
             },
             {
-                breakpoint: 768,  // For screens smaller than 768px (tablets and smaller)
+                breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,  // Show 2 slides on smaller tablets
+                    slidesToShow: 2, 
                 },
             },
             {
-                breakpoint: 580,  // For screens smaller than 768px (tablets and smaller)
+                breakpoint: 580, 
                 settings: {
-                    slidesToShow: 1,  // Show 2 slides on smaller tablets
+                    slidesToShow: 1,  
                 },
             },
             {
-                breakpoint: 480,  // For screens smaller than 480px (small screens)
+                breakpoint: 480,  
                 settings: {
-                    slidesToShow: 1,  // Show 1 slide on mobile
+                    slidesToShow: 1,  
                 },
             },
         ],

@@ -59,7 +59,7 @@ const courses = [
     authorImage: a4,
     price: 40,
   },
-  // Add more courses here
+
 ];
 
 
